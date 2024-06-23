@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Enumerator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+
+        <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        
+        <div id="main">
+            <h1>Add page numbers to a pdf as a backdrop</h1>
+
+            <input type="file" id="pdfInput" accept="application/pdf">
+            <input type="number" id="fontSize" placeholder="enter font size" value="300">
+            <button id="processBtn">Process</button>
+            <a id="downloadLink" style="display:none">Download Modified PDF</a>
+        </div>
+        
+
+        <script src="scripts.js" async defer></script>
+    </body>
+</html>
